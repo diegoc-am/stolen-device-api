@@ -12,6 +12,7 @@ group :development do
 end
 
 group :development, :test do
+  gem 'approvals', '~> 0.0'
   gem 'minitest', '~> 5.11'
   gem 'minitest-reporters', '~> 1.2'
   gem 'rack-test', '~> 1.0'
