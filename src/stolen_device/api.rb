@@ -2,7 +2,7 @@
 
 require 'grape'
 
-module Sturm
+module StolenDevice
   ##
   # Main API instatiation
   class API < Grape::API

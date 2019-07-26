@@ -8,6 +8,11 @@ SimpleCov.minimum_coverage(96)
 require 'minitest/autorun'
 require 'minitest/reporters'
 require 'rack/test'
+require 'approvals'
+
+Approvals.configure do |config|
+  config.approvals_path = 'test/fixtures/approvals/'
+end
 
 Minitest::Reporters.use!
 

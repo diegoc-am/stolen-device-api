@@ -1,5 +1,5 @@
 # frozen_string_literal: true
 
-require_relative 'src/sturm/api.rb'
+require_relative 'src/stolen_device/api.rb'
 
-run Sturm::API
+run StolenDevice::API
