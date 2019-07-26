@@ -47,3 +47,4 @@ build-iPhoneSimulator/
 
 # Custom
 .approvals
+mysql_data/

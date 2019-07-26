@@ -1,5 +1,7 @@
 # frozen_string_literal: true
 
+ENV['ENVIRONMENT'] ||= 'test'
+
 require 'simplecov'
 
 SimpleCov.start { add_filter('test') }
@@ -9,6 +11,7 @@ require 'minitest/autorun'
 require 'minitest/reporters'
 require 'rack/test'
 require 'approvals'
+require 'pry'
 
 Approvals.configure do |config|
   config.approvals_path = 'test/fixtures/approvals/'

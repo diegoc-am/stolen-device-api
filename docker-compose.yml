@@ -1,0 +1,13 @@
+version: '3.7'
+
+services:
+  mysql:
+    image: mysql:8.0
+    environment:
+      MYSQL_ALLOW_EMPTY_PASSWORD: 'yes'
+      MYSQL_PASSWORD: ${MYSQL_PASSWORD}
+      MYSQL_DATABASE: stolen_device
+    ports:
+      - 3306:3306
+    volumes:
+      - ./mysql_data/:/var/lib/mysql
