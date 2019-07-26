@@ -2,7 +2,7 @@ services:
   - mysql
 
 env:
-  - RACK_ENV=ci
+  - RACK_ENV=travis
 
 language: ruby
 before_install:
