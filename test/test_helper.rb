@@ -11,6 +11,7 @@ require 'minitest/autorun'
 require 'minitest/reporters'
 require 'rack/test'
 require 'approvals'
+require 'pry'
 
 Approvals.configure do |config|
   config.approvals_path = 'test/fixtures/approvals/'

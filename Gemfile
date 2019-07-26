@@ -17,6 +17,7 @@ group :development, :test do
   gem 'approvals', '~> 0.0'
   gem 'minitest', '~> 5.11'
   gem 'minitest-reporters', '~> 1.2'
+  gem 'pry', '~> 0.12'
   gem 'rack-test', '~> 1.0'
   gem 'simplecov', '~> 0.16'
 end
