@@ -1,8 +1,6 @@
 # Sturm
 
-[![Build Status](https://travis-ci.org/belfazt/sturm.svg?branch=master)](https://travis-ci.org/belfazt/sturm)
-
-Structure to create a microservice, uses [Grape](https://github.com/ruby-grape/grape)
+[![Build Status](https://travis-ci.org/belfazt/stolen-device-api.svg?branch=master)](https://travis-ci.org/belfazt/stolen-device-api)
 
 ## Developing
 
