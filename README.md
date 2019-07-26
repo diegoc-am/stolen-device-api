@@ -1,6 +1,7 @@
 # Stolen Device API
 
 [![Build Status](https://travis-ci.org/belfazt/stolen-device-api.svg?branch=master)](https://travis-ci.org/belfazt/stolen-device-api)
+[![Coverage Status](https://coveralls.io/repos/github/belfazt/stolen-device-api/badge.svg?branch=master)](https://coveralls.io/github/belfazt/stolen-device-api?branch=master)
 
 ## Developing
 

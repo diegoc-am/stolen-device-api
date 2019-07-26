@@ -1,6 +1,9 @@
 # frozen_string_literal: true
 
-ENV['ENVIRONMENT'] ||= 'test'
+ENV['ENVIRONMENT'] ||= ENV['RACK_ENV'] || 'test'
+
+require 'coveralls'
+Coveralls.wear!
 
 require 'simplecov'
 

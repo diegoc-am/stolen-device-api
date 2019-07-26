@@ -22,4 +22,5 @@ group :development, :test do
   gem 'pry', '~> 0.12'
   gem 'rack-test', '~> 1.0'
   gem 'simplecov', '~> 0.16'
+  gem 'coveralls', '~> 0.7', require: false
 end
