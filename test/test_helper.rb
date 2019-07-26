@@ -3,6 +3,7 @@
 require 'simplecov'
 
 SimpleCov.start { add_filter('test') }
+SimpleCov.minimum_coverage(96)
 
 require 'minitest/autorun'
 require 'minitest/reporters'
