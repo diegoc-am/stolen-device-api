@@ -1,5 +1,7 @@
 # frozen_string_literal: true
 
+ENV['ENVIRONMENT'] ||= 'test'
+
 require 'simplecov'
 
 SimpleCov.start { add_filter('test') }

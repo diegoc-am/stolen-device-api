@@ -2,6 +2,8 @@
 
 source 'https://rubygems.org'
 
+gem 'deep_open_struct', '~> 0.1'
+gem 'dotenv', '~> 2.7'
 gem 'grape', '~> 1.0'
 gem 'puma', '~> 4.0'
 gem 'rake', '~> 12.3'
